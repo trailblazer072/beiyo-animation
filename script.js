@@ -50,6 +50,7 @@ var h1s = elem.querySelectorAll("h1");
                     onComplete: function () {
                         gsap.set(this._targets[0], {
                             top: "100%"
+                            
                         })
                         animating=false;
                     }
